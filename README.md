@@ -84,7 +84,7 @@ df.info()
 
 
 ```python
-# Create a plot that shows the SalesPrice Distribution
+# Create a plot that shows the SalePrice Distribution
 ```
 
 
