@@ -1,4 +1,3 @@
-
 # Project - EDA with Pandas Using the Ames Housing Data
 
 ## Introduction
@@ -84,7 +83,7 @@ df.info()
 
 
 ```python
-# Create a plot that shows the SalesPrice Distribution
+# Create a plot that shows the SalePrice Distribution
 ```
 
 
