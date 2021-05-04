@@ -1,4 +1,3 @@
-
 # Project - EDA with Pandas Using the Ames Housing Data
 
 ## Introduction
@@ -384,13 +383,13 @@ pd.plotting.scatter_matrix(df[['LotArea', 'SalePrice', 'YrSold', 'YearBuilt']], 
 
 
 ```python
-# Create a plot that shows the SalesPrice Distribution
+# Create a plot that shows the SalePrice Distribution
 ```
 
 
 ```python
 # __SOLUTION__ 
-# Create a plot that shows the SalesPrice Distribution
+# Create a plot that shows the SalePrice Distribution
 fig, ax = plt.subplots(figsize=(10, 7))
 ax.hist(df['SalePrice'], bins='auto')
 ax.set_title('Distribution of Sale Prices')
@@ -488,13 +487,13 @@ ax.set_ylabel('House Price ($)');
 
 ```python
 # __SOLUTION__ 
-## Investigation Correlations with Sale Price
+## Investigation Correlations with SalePrice
 ```
 
 
 ```python
 # __SOLUTION__ 
-## Investigation Correlations with Sale Price
+## Investigation Correlations with SalePrice
 df.corr()['SalePrice'].sort_values()
 ```
 
